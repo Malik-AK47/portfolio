@@ -1,0 +1,112 @@
+import { motion } from "framer-motion";
+import { FiExternalLink, FiGithub } from "react-icons/fi";
+
+function Projects() {
+  const projects = [
+    {
+      title: "Portfolio Website",
+      description:
+        "A personal portfolio built with React, Vite, and Tailwind CSS showcasing my projects and skills.",
+      tech: ["React", "Vite", "Tailwind"],
+      link: "https://yourportfolio.com",
+      github: "https://github.com/yourusername/portfolio",
+      image:
+        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+    },
+    {
+      title: "MERN Blog Platform",
+      description:
+        "A full-stack blog app with user authentication, post CRUD, and admin dashboard using MERN stack.",
+      tech: ["MongoDB", "Express", "React", "Node"],
+      link: "https://yourblogapp.com",
+      github: "https://github.com/yourusername/mern-blog",
+      image:
+        "https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=800&q=80",
+    },
+    {
+      title: "AI Chat Assistant",
+      description:
+        "A chat app powered by OpenAI API that provides intelligent answers and remembers past messages.",
+      tech: ["React", "Node", "OpenAI API"],
+      link: "https://youraiassistant.com",
+      github: "https://github.com/yourusername/ai-assistant",
+      image:
+        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+    },
+  ];
+
+  return (
+    <section
+      id="projects"
+      className="py-20 bg-bgSecondary text-textPrimary px-6 md:px-12"
+    >
+      <motion.h2
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="text-4xl font-bold text-center mb-12"
+      >
+        My <span className="text-accent">Projects</span>
+      </motion.h2>
+
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        {projects.map((project, i) => (
+          <motion.div
+            key={i}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            whileHover={{ y: -8, scale: 1.03 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.4, delay: i * 0.2 }}
+            className="bg-bgPrimary rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col"
+          >
+            <img
+              src={project.image}
+              alt={project.title}
+              className="h-48 w-full object-cover"
+            />
+            <div className="p-6 flex flex-col flex-1">
+              <h3 className="text-2xl font-semibold mb-2 text-accent">
+                {project.title}
+              </h3>
+              <p className="text-textSecondary mb-4 flex-1">{project.description}</p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {project.tech.map((t, j) => (
+                  <span
+                    key={j}
+                    className="text-sm bg-accent/10 text-accent px-3 py-1 rounded-full"
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+ <div className="flex gap-4 mt-auto">
+  {/* Live Button - Blue */}
+  <a
+    href={project.link}
+    target="_blank"
+    className="flex-1 flex items-center justify-center gap-2 bg-blue-600 text-white font-semibold rounded-full px-6 py-2 shadow-md hover:bg-blue-500 hover:shadow-xl hover:-translate-y-1 transform transition-all duration-300"
+  >
+    <FiExternalLink size={20} /> Live
+  </a>
+
+  {/* Code Button - Dark Gray */}
+  <a
+    href={project.github}
+    target="_blank"
+    className="flex-1 flex items-center justify-center gap-2 bg-gray-800 text-white font-semibold rounded-full px-6 py-2 shadow-md hover:bg-gray-700 hover:shadow-xl hover:-translate-y-1 transform transition-all duration-300"
+  >
+    <FiGithub size={20} /> Code
+  </a>
+</div>
+
+            </div>
+          </motion.div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+export default Projects;
