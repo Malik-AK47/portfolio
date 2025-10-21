@@ -13,7 +13,7 @@ function Hero() {
         transition={{ duration: 0.7 }}
         className="text-5xl md:text-6xl font-bold mb-4"
       >
-        Hi, I’m <span className="text-accent">Malik </span> 👋
+        Hi, I’m <span className="text-accent">Malik Nadeem</span> 👋
       </motion.h1>
 
       <motion.h2
