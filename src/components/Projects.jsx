@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
+import portfolioImg from "../assets/projects-img/portfolio.png";
 
 function Projects() {
   const projects = [
@@ -8,10 +9,9 @@ function Projects() {
       description:
         "A personal portfolio built with React, Vite, and Tailwind CSS showcasing my projects and skills.",
       tech: ["React", "Vite", "Tailwind"],
-      link: "https://yourportfolio.com",
-      github: "https://github.com/yourusername/portfolio",
-      image:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+      link: "https://malik-nadeem.netlify.app/",
+      github: "https://github.com/Malik-AK47/portfolio",
+      image: portfolioImg,
     },
     {
       title: "MERN Blog Platform",
