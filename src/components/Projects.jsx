@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import portfolioImg from "../assets/projects-img/portfolio.png";
+import ecommerce from "../assets/projects-img/E-Commerce.png";
 
 function Projects() {
   const projects = [
@@ -26,12 +27,11 @@ function Projects() {
     {
       title: "Marketmate (E-Commerce)",
       description:
-        "A chat app powered by OpenAI API that provides intelligent answers and remembers past messages.",
+        "It provides user auth, product listing, cart, checkout (mock), orders, profile, wishlist, and a simple admin area to manage products and orders.",
       tech: ["React", "Node", "OpenAI API"],
       link: "https://youraiassistant.com",
       github: "https://github.com/Malik-AK47/E-Commerce",
-      image:
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+      image: ecommerce,
     },
   ];
 
