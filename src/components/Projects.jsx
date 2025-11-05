@@ -24,12 +24,12 @@ function Projects() {
         "https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=800&q=80",
     },
     {
-      title: "AI Chat Assistant",
+      title: "Marketmate (E-Commerce)",
       description:
         "A chat app powered by OpenAI API that provides intelligent answers and remembers past messages.",
       tech: ["React", "Node", "OpenAI API"],
       link: "https://youraiassistant.com",
-      github: "https://github.com/yourusername/ai-assistant",
+      github: "https://github.com/Malik-AK47/E-Commerce",
       image:
         "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
     },
