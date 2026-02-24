@@ -25,9 +25,9 @@ function Hero() {
         <Typewriter
           options={{
             strings: [
-              "Full Stack Developer 💻",
-              "React Enthusiast ⚛️",
+              "Computer Engineering Student 💻",
               "MERN Stack Developer 🌐",
+              "Full Stack Developer 💻",
             ],
             autoStart: true,
             loop: true,
