@@ -18,7 +18,7 @@ function Projects() {
     {
       title: "Marathi News Article",
       description:
-        "A full-stack blog app with user authentication, post CRUD, and admin dashboard using Ejs stack.",
+        "A full-stack blog app with user authentication, post CRUD, and admin dashboard using Ejs.",
       tech: ["MongoDB", "Express", "Ejs", "Node"],
       link: "https://yourblogapp.com",
       github: "https://github.com/yourusername/mern-blog",
