@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import portfolioImg from "../assets/projects-img/portfolio.png";
+import newsBlog from "../assets/projects-img/News-blog.png";
 import ecommerce from "../assets/projects-img/E-Commerce.png";
 
 function Projects() {
@@ -15,14 +16,13 @@ function Projects() {
       image: portfolioImg,
     },
     {
-      title: "MERN Blog Platform",
+      title: "Marathi News Article",
       description:
-        "A full-stack blog app with user authentication, post CRUD, and admin dashboard using MERN stack.",
-      tech: ["MongoDB", "Express", "React", "Node"],
+        "A full-stack blog app with user authentication, post CRUD, and admin dashboard using Ejs stack.",
+      tech: ["MongoDB", "Express", "Ejs", "Node"],
       link: "https://yourblogapp.com",
       github: "https://github.com/yourusername/mern-blog",
-      image:
-        "https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=800&q=80",
+      image:,
     },
     {
       title: "Marketmate (E-Commerce)",
