@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, Instagram } from "lucide-react";
+import { Mail, Github, Linkedin, Instagram, X } from "lucide-react";
 
 function Contact() {
   return (
@@ -21,7 +21,7 @@ function Contact() {
       {/* Contact form */}
       <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-10">
         <motion.form
-          action="https://formspree.io/f/xovkbena" // 🧠 Replace with your Formspree form ID
+          action="https://formspree.io/f/xovkbena" // Formspree form ID
           method="POST"
           initial={{ opacity: 0, x: -40 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -73,32 +73,39 @@ function Contact() {
 
           <div className="flex space-x-6 text-accent text-3xl">
             <a
-              href="mailto:youremail@example.com"
+              href="mailto:maliknadeem34497@gmail.com"
               className="hover:text-accent2 transition"
               target="_blank"
             >
               <Mail />
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Malik-AK47"
               className="hover:text-accent2 transition"
               target="_blank"
             >
               <Github />
             </a>
-            <a
+            {/* <a
               href="https://linkedin.com/in/yourusername"
               className="hover:text-accent2 transition"
               target="_blank"
             >
               <Linkedin />
-            </a>
+            </a> */}
             <a
-              href="https://instagram.com/yourusername"
+              href="https://www.instagram.com/_malik.47_"
               className="hover:text-accent2 transition"
               target="_blank"
             >
               <Instagram />
+            </a>
+            <a
+              href="https://x.com/MalikNadeem_47"
+              className="hover:text-accent2 transition"
+              target="_blank"
+            >
+              <X />
             </a>
           </div>
         </motion.div>
