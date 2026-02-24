@@ -5,15 +5,16 @@ function Education() {
   const educationList = [
     {
       degree: "B.Tech in Computer Engineering",
-      college: "Dr. Babasaheb Ambedkar Technological University",
-      year: "2021 - 2025",
-      description: "Focus on Software Development, Data Structures, Algorithms, and Full-Stack Development.",
+      college: "SSVPS's BS deore college of Engineering, Dhule",
+      year: "2024 - 2027",
+      description: "Focus on Software Development, Data Structures, Algorithms, Full-Stack Development, and Learning new Technologies",
     },
     {
-      degree: "Higher Secondary Education",
-      college: "XYZ Junior College",
-      year: "2019 - 2021",
-      description: "Focus on Science stream with Physics, Chemistry, and Mathematics.",
+      degree: "Diploma in Computer Engineering",
+      college: "SSVPS's BS deore polytechnic, Dhule",
+      year: "2022 - 2024",
+      description: "Focus on Full-Stack Development through Industrial training Where I learn HTML, CSS, JS, PHP, and MySQL",
+      CGPA: "8.8",
     },
   ];
 
