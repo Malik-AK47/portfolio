@@ -11,7 +11,7 @@ import {
   SiMongoose,
 } from "react-icons/si";
 import { motion } from "framer-motion";
-import profilePic from "../assets/profile.jpg"; // replace with your image inside /src/assets/
+import profilePic from "../assets/profile.jpg";
 
 function About() {
   const skillIcons = [
@@ -57,15 +57,14 @@ function About() {
             className="w-48 h-48 rounded-full object-cover border-4 border-accent mb-6 shadow-lg items-center"
           />
           <p className="text-lg text-textSecondary leading-relaxed">
-            Hi, I’m <span className="text-accent font-semibold">Malik</span>, a
+            Hi, I’m <span className="text-accent font-semibold">Malik Nadeem</span>, a
             passionate Full-Stack Developer who loves building beautiful,
             high-performance web applications. I enjoy transforming ideas into
             interactive digital experiences using modern technologies.
           </p>
 
           <p className="mt-4 text-textSecondary">
-            Currently, I’m focusing on mastering the MERN stack and React-based
-            animations to create smooth, user-friendly web apps.
+            Currently, I’m focusing on mastering the MERN stack and React-based animations to create smooth, user-friendly web apps. After that, I’ll move toward Machine Learning.
           </p>
         </motion.div>
 
