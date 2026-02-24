@@ -16,35 +16,5 @@ A personal portfolio website built with **React**, **Vite**, and **Tailwind CSS*
 - **PostCSS**: For enhanced CSS processing
 - **Linting**: ESLint
 
-## 🛠️ Getting Started
-
-### Prerequisites
-- Node.js (v16+)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Malik-AK47/portfolio.git
-   cd portfolio
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Build for production:
-   ```bash
-   npm run build
-   ```
-
-## 📄 License
-
-This project is open source and available under the MIT License.
+## About
+- This repo highlights my frontend (React) skill
