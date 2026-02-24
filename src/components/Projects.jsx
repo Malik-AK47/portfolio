@@ -11,7 +11,7 @@ function Projects() {
       description:
         "A personal portfolio built with React, Vite, and Tailwind CSS showcasing my projects and skills.",
       tech: ["React", "Vite", "Tailwind"],
-      link: "https://malik-nadeem.netlify.app/",
+      // link: "https://malik-nadeem.netlify.app/",
       github: "https://github.com/Malik-AK47/portfolio",
       image: portfolioImg,
     },
@@ -20,16 +20,16 @@ function Projects() {
       description:
         "A full-stack blog app with user authentication, post CRUD, and admin dashboard using Ejs.",
       tech: ["MongoDB", "Express", "Ejs", "Node"],
-      link: "https://yourblogapp.com",
-      github: "https://github.com/yourusername/mern-blog",
-      image:,
+      // link: "https://yourblogapp.com",
+      github: "https://github.com/Malik-AK47/News-Blog",
+      image: newsBlog,
     },
     {
       title: "Marketmate (E-Commerce)",
       description:
         "It provides user auth, product listing, cart, checkout (mock), orders, profile, wishlist, and a simple admin area to manage products and orders.",
-      tech: ["React", "Node", "OpenAI API"],
-      link: "https://youraiassistant.com",
+      tech: ["React", "ExpressJS", "Mongoose", "JWT"],
+      // link: "https://youraiassistant.com",
       github: "https://github.com/Malik-AK47/E-Commerce",
       image: ecommerce,
     },
