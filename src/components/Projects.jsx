@@ -82,14 +82,6 @@ function Projects() {
                 ))}
               </div>
  <div className="flex gap-4 mt-auto">
-  {/* Live Button - Blue */}
-  <a
-    href={project.link}
-    target="_blank"
-    className="flex-1 flex items-center justify-center gap-2 bg-blue-600 text-white font-semibold rounded-full px-6 py-2 shadow-md hover:bg-blue-500 hover:shadow-xl hover:-translate-y-1 transform transition-all duration-300"
-  >
-    <FiExternalLink size={20} /> Live
-  </a>
 
   {/* Code Button - Dark Gray */}
   <a
