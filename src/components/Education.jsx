@@ -14,7 +14,7 @@ function Education() {
       college: "SSVPS's BS deore polytechnic, Dhule",
       year: "2022 - 2024",
       description: "Focus on Full-Stack Development through Industrial training Where I learn HTML, CSS, JS, PHP, and MySQL",
-      CGPA: "8.8",
+      CGPA: "CGPA: 8.8",
     },
   ];
 
