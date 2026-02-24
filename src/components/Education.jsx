@@ -56,7 +56,7 @@ function Education() {
                 <h3 className="text-2xl font-semibold text-accent">{edu.degree}</h3>
                 <p className="text-textSecondary font-medium">{edu.college}</p>
                 <p className="text-textSecondary text-sm mb-2">{edu.year}</p>
-                <p className="text-textSecondary">{edu.description}</p>
+                <p className="text-textSecondary mb-2">{edu.description}</p>
                 <p className="text-textSecondary">{edu.CGPA}</p>
               </div>
             </motion.div>
